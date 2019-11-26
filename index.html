@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!--informa ao navegador que se trata de um documento html5-->
+
+<html>        <!--todo o conteúdo estará dentro desta tag-->
+
+
+<html lang="pt.br"> <!--informa o idioma-->
+
+
+<head> <!--aqui se inserem os meta dados, é possível importá-los-->
+<meta charset="utf-8"> <!--decode padrão brasileiro com acentos gráficos-->
+<title>Página da Liane</title> <!--nome da aba da página aberta-->
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- faz a conexão entre o arquivo html e css, 
+pegando todos os estilos já definidos no arquivo css -->
+</head>
+
+<body> <!--corpo do documento, conteúdo exibido-->
+
+    <header><!--cabeçalho da página--> 
+        <h1>Bem-vindo à minha página.</h1> <!--título da página. h1 dispõe fonte com o tamanho maior,
+        h2 com tamanho intermediário e h3 com tamanho menor-->
+        <p>Iniciando html e css</p>
+    </header>
+
+<p><!--representa um parágrafo -->
+    Olá! Este é o meu primeiro documento em html e css.
+</p>
+
+<nav><!--exibe o menu de navegação-->
+    <p>MENU</p>
+    <ul> <!--permite que seja inserida uma lista de itens-->
+       <li><a href="#Sobre mim"><i>Sobre mim</i></a></li><!--li item de navegação-->  <!--<i> fonte em itálico-->
+       <li><a href="#Tópicos html">Tópicos <b>html</b></a></li> <!-- <b> fonte em negrito-->
+       <li><a href="#Tópicos css">Tópicos css</a> </li>
+       <li><a href="#Parcerias">Parcerias</a> </li>
+       <li><a href="#Contato"> Contato </a></li> <!-- o elemento a href="#seção" direciona o usuário para a seção 
+        dentro da página, ou outro site, o # representa uma id-->
+    </ul>
+</nav>
+
+<section id="Sobre mim"><!-- define uma seção, usado para separar sessões de conteúdo-->
+    <h2>Sobre mim</h2>
+
+    <div> <!-- divide a disposição de imagens na página-->
+        <img src="img/about-me2.png" width="200px"> <!-- img src seleciona a imagem escolhida que está na pasta e 
+    width corrige o tamanho da imagem disponibilizada na página-->
+    </div>
+
+    <div>
+         <img src="img/About Me Pt I Facebook.png" width="200px">
+     </div>
+
+    
+    <p>Iniciante em HTML5 e CSS3.</p>
+</section>
+
+<section id="Tópicos html"><!-- define uma sessão, usado para separar sessões de conteúdo-->
+    <h2>Tópicos html</h2>
+
+    <img src="img/html5.png" width="200px"> 
+
+    <p>Confira aqui os principais elementos html a serem utilizados.</p>
+</section>
+
+<section id="Tópicos css"><!-- define uma sessão, usado para separar sessões de conteúdo-->
+    <h2>Tópicos css</h2>
+
+<img src="img/css2.png" width="200px">
+
+    <p>Confira aqui os principais elementos css a serem utilizados.</p>
+</section>
+
+<section id="Parcerias"><!-- define uma sessão, usado para separar sessões de conteúdo-->
+    <h2>Parcerias</h2>
+
+       <a href="https://digitalinnovation.one/" target="_blank"><img src="img/digitalinnovation.png" width="200px"> </a> <!-- 
+           a href também pode direcionar o usuário para um link externo ao clicar em figuras. 
+           Ao se inserir o elemento target: _blank, uma nova aba com o endereço de destino é aberta ao clicar -->
+
+    </section>
+
+<section id="Contato"> <!-- define uma sessão, usado para separar sessões de conteúdo-->
+    <h2>Contato</h2>
+
+<img src="img/logo-rede-sociais-png.png" width="200px">
+
+    <p>Adicione-me nas redes sociais ou me envie um e-mail: 
+        <a href="mailto:lianecoutinho@hotmail.com"> lianecoutinho@hotmail.com </a></p> <!-- mailto: cria um link 
+            para envio de e-mail -->
+    <p>Se preferir, disponibilizo central de atendimento 24 horas 
+            pelo número<a href="tel:9999999999"> (99) 9999 - 9999 </a></p> <!-- tel: cria um link 
+                para efetuar ligação via skype p.ex. -->
+        </section>
+
+<footer> <!--rodapé da página-->
+    <p>Desenvolvido por Liane Coutinho Pinto</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
