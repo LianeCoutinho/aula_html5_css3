@@ -1,0 +1,43 @@
+
+/*Altera a formatação (estilo) dos elementos da página*/
+
+body {
+background: rgb(231, 222, 240); /* estabelece a cor de fundo da página, site html color codes disponibiliza
+ o código das cores também*/
+
+margin-left: 50px; /* estabelece espaçamento à esquerda*/ 
+margin-right: 100px; /*estabelece espçamento à direita*/
+
+}
+
+nav {
+
+    margin-top: 75px; /*estabelece espaçamento acima do elemento*/
+    
+}
+
+img {
+
+    margin-bottom: 75px; /*estabelece espaçamento abaixo do elemento*. 
+                    Obs: é possível criar uma classe dentro do elemento para referenciá-la em separado,
+                    escrevendo class="nome do elemento" no arquivo html e depois .nome do elemento no css */
+}
+
+section {
+    margin-top: 100px;
+}
+
+h1 {
+color: brown; /* altera a cor do título*/ 
+font-family: serif; /*altera estilo da fonte do título*/
+}
+
+p {
+font-size: 20px ; /*altera o tamanho da fonte do parágrafo*/
+}
+
+footer {
+    margin-top:30px;
+    margin-left:600px;
+
+}
